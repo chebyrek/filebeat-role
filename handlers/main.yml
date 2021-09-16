@@ -1,6 +1,5 @@
 ---
-# handlers file for kibana-role
-- name: restart Filebeat
+- name: restart filebeat
   become: true
   service:
     name: filebeat
